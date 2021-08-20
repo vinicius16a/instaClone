@@ -27,6 +27,7 @@
 		9451075A26CF06A0000B4193 /* SearchResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9451075926CF06A0000B4193 /* SearchResultViewController.swift */; };
 		9451075C26CF0784000B4193 /* PostEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9451075B26CF0784000B4193 /* PostEditorViewController.swift */; };
 		9451075E26CF07AC000B4193 /* PublishPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9451075D26CF07AC000B4193 /* PublishPostViewController.swift */; };
+		9451076026CF6212000B4193 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9451075F26CF6212000B4193 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		9451075926CF06A0000B4193 /* SearchResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultViewController.swift; sourceTree = "<group>"; };
 		9451075B26CF0784000B4193 /* PostEditorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostEditorViewController.swift; sourceTree = "<group>"; };
 		9451075D26CF07AC000B4193 /* PublishPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublishPostViewController.swift; sourceTree = "<group>"; };
+		9451075F26CF6212000B4193 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 				9451073B26CEFD8A000B4193 /* Views */,
 				9451073A26CEFD77000B4193 /* Controllers */,
 				9451073426CEFCC5000B4193 /* Info.plist */,
+				9451075F26CF6212000B4193 /* GoogleService-Info.plist */,
 			);
 			path = instaClone;
 			sourceTree = "<group>";
@@ -231,6 +234,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9451073326CEFCC5000B4193 /* LaunchScreen.storyboard in Resources */,
+				9451076026CF6212000B4193 /* GoogleService-Info.plist in Resources */,
 				9451073026CEFCC5000B4193 /* Assets.xcassets in Resources */,
 				9451072E26CEFCC4000B4193 /* Main.storyboard in Resources */,
 			);
