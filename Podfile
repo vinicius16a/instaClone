@@ -6,5 +6,23 @@ target 'instaClone' do
   use_frameworks!
 
   # Pods for instaClone
+# add the Firebase pod for Google Analytics
+pod 'Firebase/Analytics'
+# or pod ‘Firebase/AnalyticsWithoutAdIdSupport’
+# for Analytics without IDFA collection capability
+
+# add pods for any other desired Firebase products
+# https://firebase.google.com/docs/ios/setup#available-pods
+
+pod 'Appirater'
+
+pod 'Firebase/Auth'
+pod 'Firebase/Core'
+pod 'Firebase/Database'
+pod 'Firebase/Crashlytics'
+pod 'Firebase/Storage'
+
+
+
 
 end
